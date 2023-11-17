@@ -108,5 +108,5 @@ class ObjectTracker:
         cv2.destroyAllWindows()
 
 if __name__ == "__main__":
-    tracker = ObjectTracker("E:/RWTH/Project/YoloV8-detecor-main/Test_videos/Montage R51_Fa Medenus.mp4")
+    tracker = ObjectTracker("Your_Video.mp4")
     tracker.run_tracking()
